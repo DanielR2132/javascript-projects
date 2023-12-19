@@ -5,4 +5,19 @@ console.log(typeof "17");
 console.log(typeof "3.2");''
 console.log('The knights who say "Ni!"')
 console.log("Bruce's beard")
-console.log (typeof(3))
+console.log(typeof (3))
+
+console.log("Coding Rocks");
+console.log('coding rocks');
+//this is a comment
+console.log("Hello world!");
+
+console.log(typeof three)
+console.log(Number("33"));
+ 
+const input = require('readline-sync');
+
+let info = input.question("Please enter your age: ");
+//The user enters 25.
+
+console.log(typeof info);
