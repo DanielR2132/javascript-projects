@@ -12,12 +12,7 @@ console.log('coding rocks');
 //this is a comment
 console.log("Hello world!");
 
-console.log(typeof three)
-console.log(Number("33"));
- 
-const input = require('readline-sync');
-
-let info = input.question("Please enter your age: ");
-//The user enters 25.
-
-console.log(typeof info);
+console.log(Number("three"));
+console.log(Number(33));
+console.log(Number("3 3"));
+console.log(Number(3));

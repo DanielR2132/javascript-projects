@@ -23,14 +23,3 @@ let daystomars = hoursToMars / 24
 
 console.log(spaceshuttle + " will take " + daystomars + " days to reach the moon");
 
-let day = "Thursday";
-day = 32.5;
-day = 19;
-console.log(day);
-
-let a;
-a = 42;
-a = a + 3;
-console.log(a)
-
-
