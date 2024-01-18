@@ -39,3 +39,14 @@ if (num % 2 === 0) {
         console.log("odd");
     }
 }
+
+let jsCreator = "Brendan Eich";
+
+console.log(jsCreator[-1]);
+console.log(jsCreator[42]);
+
+cityName = "Vienna";
+stateName = "Virginia";
+location = cityName + ", " +  stateName;
+
+console.log(location.length);
