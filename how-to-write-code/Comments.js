@@ -1,15 +1,14 @@
    // This demo shows off comments!
 
-   console.log("This does not print.")
 
-   console.log("Hello, World!"); // Comments do not have to start at the beginning of a line.
+
+    // Comments do not have to start at the beginning of a line.
 
    /* Here is how
    to have
    multi-line
    comments. */
 
-   console.log('this will print')
    
    /* multi
    line
@@ -17,4 +16,9 @@
 
    // this will not print, cool
 
-   console.log("Comments make your code more readable by others.");
+
+   let phrase = "Chili Cook-off";
+
+for (let i = 0; i < phrase.length - 1; i = i + 3) {
+   console.log(phrase[i]);
+}
