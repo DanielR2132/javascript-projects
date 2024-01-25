@@ -33,7 +33,7 @@ function makeDownStains(height){
     }
     return stairs.slice(0,-1);
 }
-console.log(makeDownStains(5));
+   console.log(makeDownStains(5));
 
 /*--------------------------*/
 
@@ -41,7 +41,7 @@ function makeSpaceLine(numSpaces, numChars, char = "#") {
     let line = ' '.repeat(numSpaces) + char.repeat(numChars) + ' '.repeat(numSpaces);
     return line;
 }
-console.log(makeSpaceLine(2, 3));
+ console.log(makeSpaceLine(2, 3));
 
 
 
@@ -52,7 +52,7 @@ function makeIsoscelesTriangle(height, char = "#") {
     }
     return triangle.slice(0, -1);
 }
-console.log(makeIsoscelesTriangle(5));
+ console.log(makeIsoscelesTriangle(5));
 
 /*---------------------------------*/
 
@@ -62,10 +62,9 @@ function makeDiamond(height, char = "#") {
     for (let i = height - 1; i > 0; i--) {
         let numChars = 2 * i -1;
         let line = makeSpaceLine(height - i, numChars);
-        diamond += line + '\n';
-        
+        diamond += line + '\n'; 
     }
-    return diamond.slice(0, -1);
+  return diamond.slice(0, -1);
 }
 console.log(makeDiamond(5));
 
