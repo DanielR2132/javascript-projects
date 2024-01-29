@@ -16,6 +16,19 @@
 // 3. If typeof is ’number’, convert the parameter to a string, reverse the characters, then convert it back into a number.
 // 4. Return the reversed number.
 // 5. Be sure to print the result returned by the function to verify that your code works for both strings and numbers. Do this before moving on to the next exercise.
+function reverseCharacters(str){
+    if (typeof str === "string"){
+        let reversed = (str.split("").reverse().join(""));
+        return reversed;
+    } else {
+        let reversed = (str.toString().split("").reverse().join(""));
+        return reversed;
+    }
+}
+
+console.log(reverseCharacters("blue"));
+
+
 
 // Part Three: Complete Reversal
 
