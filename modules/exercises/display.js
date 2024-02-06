@@ -1,5 +1,7 @@
 //TODO: Export ONLY the printAll function.
 
+const print = printAll('../exercises/display.js');
+
 function printAll(names, tests, scores){
   let header = 'Name';
   let row = '';
@@ -34,3 +36,5 @@ function printTestScores(index,test,students,scores){
   }
   return;
 }
+
+
