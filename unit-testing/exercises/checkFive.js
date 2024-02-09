@@ -9,3 +9,7 @@ function checkFive(num){
    }
    return result;
  }
+
+ const test = require('../checkFive.js');
+
+ module.exports = checkFive
